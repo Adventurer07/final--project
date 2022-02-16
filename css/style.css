@@ -4,19 +4,6 @@ body
     border: 3px solid;
 }
 
-/* .heading {
-    width: 97%;
-    height: 50px;
-    background-color: blue;
-    border: solid;
-    border-color: purple;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 1%;
-    text-align: center;
-    padding-top: 25px;
-} */
-
 .navbar {
     font-family: 'Roboto', sans-serif;
     position: sticky;
@@ -31,9 +18,7 @@ body
     z-index: 3;
 }
 .logo {
-    /* width: 70px; */
     float: left;
-    /* padding-left: 10px; */
     height: 85px;
     margin-top: -16px;
     }
@@ -89,7 +74,6 @@ body
     width: 35%;
     height: 366px;
     border: solid;
-    /* border-color: darkmagenta; */
     margin-bottom: 10px;
     margin-right: 1.5%;
     text-align: center;
@@ -141,19 +125,17 @@ body
     padding-top: 25px;
 }
 
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #7a4976;
     color: white;
@@ -163,12 +145,10 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     background-color: #45a049;
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     font-family: 'Montserrat';
     border-radius: 5px;
